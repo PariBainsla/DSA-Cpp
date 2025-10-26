@@ -109,19 +109,29 @@
 // }
 // cout<<even  << " " << odd ;
 
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin>>n;
+//     vector<int> arr(n);
+//     for(int i=0; i<n; i++){
+//         cin>>arr[i];
+//     }
+//     for(int i=n-1; i>=0; i--){
+//         cout<< arr[i];
+//         if(i!=0) cout<<" ";
+//     }
+//     return 0;
+// }
+
 #include <iostream>
-#include <vector>
 using namespace std;
 int main(){
-    int n;
-    cin>>n;
-    vector<int> arr(n);
-    for(int i=0; i<n; i++){
-        cin>>arr[i];
-    }
-    for(int i=n-1; i>=0; i--){
-        cout<< arr[i];
-        if(i!=0) cout<<" ";
-    }
+    int n, m, p;
+    cin>> n >> m >> p;
+    int sum = n+m+p;
+    cout<<sum;
     return 0;
 }
